@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var settings = Settings()
     var body: some View {
-        TitleView()
+        // Affichage vertical
+        VStack {
+            // Espacement
+            Spacer(minLength: 10)
+            // Titre
+            TitleView()
+            // Espacement
+            Spacer()
+            // Réglages
+            SettingsView(settings: $settings)
+            // Espacement
+            Spacer()
+        }
+        .padding()
+
+
 }
 
 struct ContentView_Previews: PreviewProvider {

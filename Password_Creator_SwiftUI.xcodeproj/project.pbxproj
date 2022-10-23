@@ -13,6 +13,8 @@
 		2267EFC329056E370040F626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2267EFC229056E370040F626 /* Preview Assets.xcassets */; };
 		2267EFCA2905DDC30040F626 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267EFC92905DDC30040F626 /* TitleView.swift */; };
 		2267EFCC2905DF1B0040F626 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267EFCB2905DF1B0040F626 /* InputView.swift */; };
+		2267EFCE2905E2D70040F626 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267EFCD2905E2D70040F626 /* Settings.swift */; };
+		2267EFD02905E33C0040F626 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2267EFCF2905E33C0040F626 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		2267EFC229056E370040F626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2267EFC92905DDC30040F626 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		2267EFCB2905DF1B0040F626 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		2267EFCD2905E2D70040F626 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		2267EFCF2905E33C0040F626 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				2267EFC129056E370040F626 /* Preview Content */,
 				2267EFC92905DDC30040F626 /* TitleView.swift */,
 				2267EFCB2905DF1B0040F626 /* InputView.swift */,
+				2267EFCD2905E2D70040F626 /* Settings.swift */,
+				2267EFCF2905E33C0040F626 /* SettingsView.swift */,
 			);
 			path = Password_Creator_SwiftUI;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 				2267EFBE29056E330040F626 /* ContentView.swift in Sources */,
 				2267EFCC2905DF1B0040F626 /* InputView.swift in Sources */,
 				2267EFBC29056E330040F626 /* Password_Creator_SwiftUIApp.swift in Sources */,
+				2267EFD02905E33C0040F626 /* SettingsView.swift in Sources */,
 				2267EFCA2905DDC30040F626 /* TitleView.swift in Sources */,
+				2267EFCE2905E2D70040F626 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
